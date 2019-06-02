@@ -1,16 +1,24 @@
 package com.example.myproject.app.services;
 
 import android.util.Log;
-import androidx.annotation.NonNull;
+
 import com.google.gson.Gson;
-import okhttp3.*;
-import okio.Buffer;
-import okio.BufferedSource;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.UnsupportedCharsetException;
 import java.util.Map;
+
+import androidx.annotation.NonNull;
+import okhttp3.Headers;
+import okhttp3.Interceptor;
+import okhttp3.MediaType;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+import okio.Buffer;
+import okio.BufferedSource;
 
 /**
  * Created by mikkelschlager on 07/12/2016.
