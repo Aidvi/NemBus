@@ -67,6 +67,7 @@ class DeparturesAdapter :
             Type.Bus -> R.layout.cell_departure
         }
     }
+    
 
     // Replace the contents of a view (invoked by the layout manager)
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
