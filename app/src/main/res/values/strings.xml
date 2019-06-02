@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nembus</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_cell_stop">CellStopActivity</string>
+    <string name="title">Title</string>
+    <string name="_500m">500m</string>
+</resources>

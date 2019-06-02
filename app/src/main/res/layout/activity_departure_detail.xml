@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.DepartureDetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="#f5f5f5"
+        app:layout_constraintBottom_toTopOf="@id/recyclerView"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:text="Tid"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/header"
+        app:layout_constraintLeft_toLeftOf="@id/header"
+        app:layout_constraintTop_toTopOf="@id/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forventet"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/header"
+        app:layout_constraintStart_toEndOf="@+id/textView1" android:layout_marginStart="38dp"
+        app:layout_constraintTop_toTopOf="@id/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linje"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/header"
+        app:layout_constraintStart_toEndOf="@+id/textView1" android:layout_marginStart="142dp"
+        app:layout_constraintTop_toTopOf="@id/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mod"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/header"
+        app:layout_constraintStart_toEndOf="@+id/textView1" android:layout_marginStart="227dp"
+        app:layout_constraintTop_toTopOf="@id/header" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

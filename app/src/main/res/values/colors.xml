@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcc80</color>
+    <color name="colorPrimaryDark">#ca9b52</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="busModelC">#42b6ff</color>
+    <color name="busModelS">#0a5fff</color>
+    <color name="busModelA">#d80808</color>
+    <color name="busStandardModel">#ffc132</color>
+</resources>
